@@ -1,9 +1,9 @@
 # BitterBirds
-A different take one the once-popular game Angry Birds.
+A different take on the once-popular game Angry Birds.
 
-The goal of the game is to keep the evil pigs from stealing your eggs as long as possible. Currently, the only game mode is "endless" in which you play until all of you eggs are gone.
+The goal of the game is to keep the pigs from stealing your eggs as long as possible. Currently, the only game mode is "endless" in which you play until all of your eggs are gone.
 
-You start with three eggs. Different pigs that move in different ways (jumping, riding, flying) can steal your eggs by simply being in the same horizontal position as your rightmost remaining egg. Once an egg is stolen, it cannot be recovered even if the pig is dispatched. You defend your eggs by flinging your birds at the pigs via a slingshot.
+You start with three eggs. Different pigs that move in different ways (jumping, driving, flying) can steal your eggs by simply being in the same horizontal position as your rightmost remaining egg. Once an egg is stolen, it cannot be recovered even if the pig is dispatched. You defend your eggs by flinging your birds at the pigs via a slingshot.
 
 There are three difficulties:
 
