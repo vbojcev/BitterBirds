@@ -20,7 +20,7 @@ class Star {  //Simple small ellipse that has a 1% chance to become slightly big
     noStroke();
     ellipseMode(RADIUS);
     
-    twinkle = int(random(0, 100));
+    twinkle = int(random(0, 10000));
     if (twinkle == 2) {
       size = 2;  //Twinkle, twinkle, little star...
     } else size = 1;

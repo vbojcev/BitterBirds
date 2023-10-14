@@ -40,13 +40,13 @@ PFont font;  //Declares the font, is called font because it's the only font ever
 
 void setup() {
 
-  //size (1600, 900);  //For windowed mode, almost the whole game scales with resolution
+  size (1920, 1080);  //For windowed mode, almost the whole game scales with resolution
 
   frameRate(60);  //For buttery smooth gameplay
 
   smooth();  //For sharp visuals, somehow more laggy without it
 
-  fullScreen();  //Default running mode, game can adapt to smaller screens (displays as small as 1280 * 720 work well, but pig speeds will be faster relative to screen size)
+  //fullScreen();  //Default running mode, game can adapt to smaller screens (displays as small as 1280 * 720 work well, but pig speeds will be faster relative to screen size)
 
   env = new Environment();  //Background and foreground environment and its effects
 
@@ -56,7 +56,7 @@ void setup() {
 
   pig = new Pig ( 2/*type of pig*/, width + 50, height/2, random(-5, -2), 0, 50, 1/* 1=red, 2 = blue, 3 = green*/);  //Pig object, Player must hit it
 
-  font = loadFont("angrybirds.vlw");  //Loads the font used throughout the whole game
+  font = createFont("angrybirds-regular.ttf", 64);  //Loads the font used throughout the whole game
 
   predictor = new ArrayList<Prediction>();  //Initialization for the predictor feature
 
